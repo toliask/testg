@@ -1,0 +1,11 @@
+.project
+.settings
+.classpath
+.DS_Store
+target
+
+# /android/
+/android/bin
+/android/gen
+
+
