@@ -12,4 +12,9 @@ public class OurgameActivity extends GameActivity {
     platform().assetManager().setPathPrefix("com/dd/resources");
     PlayN.run(new Ourgame());
   }
+  
+  @Override
+  public boolean usePortraitOrientation() {
+    return true;
+  }
 }
